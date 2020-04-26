@@ -1,0 +1,9 @@
+Which of the following names don't satisfy the style guidelines for naming variables, functions, or constants?
+  The following names don't satisfy the style guidelines for naming variables, functions, or constants:
+    1stCharacter
+      - These should never start with a number.
+    snake_case
+    quick_Fox
+      - No underscores should be used with lowercase letters.  Constants are allowed to use underscore to separate words, but letters must be all uppercase.
+      
+  
