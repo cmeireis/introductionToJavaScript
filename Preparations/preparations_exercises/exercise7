@@ -1,0 +1,8 @@
+Which of the following names satisfy the style guidelines for function names?
+
+The following names satisfy the style guidelines for function names:
+  index
+  lazyDog
+  CatName
+    - The CatName is an example of PascalCase which is allowed for function names.
+  operand2
