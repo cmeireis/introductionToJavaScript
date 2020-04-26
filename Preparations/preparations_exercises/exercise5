@@ -1,0 +1,5 @@
+Identify the Constructors for each of the following methods and classify each method as either a "Static" or a "Prototype" method:
+  substring - The constructor is String and it is a prototype method.  ex: String.prototype.substring()
+  create - The constructor is Object and it is a static method.  ex: Object.create()
+  fromCharCode - The constructor is String and it is a static method.  ex: String.fromCharCode()
+  slice - The constructor is an Array or String.  It is a prototype method.  ex:  Array.prototype.slice() or String.prototype.slice()
