@@ -1,0 +1,40 @@
+Exercise 1
+What does this code log to the console? Does executing the foo function affect the output? Why or why not?
+  let bar = 1;
+function foo() {
+  let bar = 2;
+}
+
+foo();
+console.log(bar);
+
+  The value output to the console would be 1.  Executing foo doesn't impact the output because bar is set in foo which is inner scope.
+Exercise 2
+  See greeter.js file in Input_Output section.
+
+Exercise 3
+  See multipy.js file.
+Exercise 4
+  See factorial.js file.
+Exercise 5
+What does the following code log to the console?
+
+function scream(words) {
+  words = words + '!!!!';
+  return;
+  console.log(words);
+}
+
+scream('Yipeee');
+
+  I initially thought this would return Yippeee!!!! 
+  After trying it I found it doesn't return anything due to return happening before console.log()
+
+Exercise 6
+What does the following code log to the console?
+  function scream(words) {
+  return words + '!!!!';
+}
+
+scream('Yipeee')
+  It logs nothing because of no console.log() statement.  It would return a value though.
