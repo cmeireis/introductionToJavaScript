@@ -13,3 +13,56 @@ true === 4;   false
 false === (847 === '847');    true
 false === (847 == '847');   false
 (!true || (!(100 / 5) === 20) || ((328 / 4) === 82)) || false;    true
+
+Exercise 4
+What does the following code log to the console, and why?
+  function barCodeScanner(serial) {
+  switch (serial) {
+    case '123':
+      console.log('Product1');
+    case '113':
+      console.log('Product2');
+    case '142':
+      console.log('Product3');
+    default:
+      console.log('Product not found!');
+  }
+}
+barCodeScanner('113');
+
+  This would show Product2, Product3, and  Product not found! due to switch not having break statements after each case clause.
+
+Exercise 5
+Refactor this statement to use an if statement instead.
+return foo() ? 'bar' : qux();
+
+if (foo()) {
+  return 'bar';
+  } else {
+    return qux();
+  }
+
+Exercise 6
+What does this code output to the console?
+  function isArrayEmpty(arr) {
+  if (arr) {
+    console.log('Not Empty');
+  } else {
+   console.log('Empty');
+  }
+}
+
+isArrayEmpty([]);   // [] is an empty Array
+
+  It will output Not Empty due to it evaluating to true.
+
+Excercise 7
+function changeCase(word) {
+  if (word.length > 10) {
+    console.log(word.toUpperCase());
+  } else {
+    console.log(word);
+  }
+}
+
+Exercise 8
