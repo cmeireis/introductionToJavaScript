@@ -64,5 +64,3 @@ function changeCase(word) {
     console.log(word);
   }
 }
-
-Exercise 8
