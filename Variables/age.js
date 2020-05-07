@@ -1,7 +1,11 @@
 let rlsync = require('readline-sync');
 let myAge = Number(rlsync.question('What is your age? '));
 console.log(`You are ${ myAge } years old.`);
-console.log(`In 10 years, you will be ${ myAge + 10} years old.`);
-console.log(`In 20 years, you will be ${ myAge + 20} years old.`);
-console.log(`In 30 years, you will be ${ myAge + 30} years old.`);
-console.log(`In 40 years, you will be ${ myAge + 40} years old.`);
+//console.log(`In 10 years, you will be ${ myAge + 10} years old.`);
+//console.log(`In 20 years, you will be ${ myAge + 20} years old.`);
+//console.log(`In 30 years, you will be ${ myAge + 30} years old.`);
+//console.log(`In 40 years, you will be ${ myAge + 40} years old.`);
+
+for (let age = 10; age <= 40; age += 10) {
+  console.log(`In ${age} years, you will be ${myAge + age} years old`);
+}
