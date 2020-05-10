@@ -43,4 +43,26 @@ console.log(notIntegers(array));*/
 
 // exercise 6
 
+/*let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
+
+function someLengths(arr) {
+  let filteredArray = arr.map((letters) => {
+    return letters.length;
+  }).filter((numbers) => {
+    return numbers % 2 === 1;
+  });
+  return filteredArray
+};
+
+console.log(someLengths(arr));*/
+
+// exercise 7
+let numbers = [3,5,7];
+function sumOfSquares(numbers) {
+  return numbers.reduce((accumulator, number) => {
+    return accumulator + number * number;
+  });
+}
+console.log(sumOfSquares(numbers));
+// If the zero is removed, there is no initial value.  When this happens with reduce method, it will skip the first index.
 
