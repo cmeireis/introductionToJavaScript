@@ -57,12 +57,42 @@ function someLengths(arr) {
 console.log(someLengths(arr));*/
 
 // exercise 7
-let numbers = [3,5,7];
+/*let numbers = [3,5,7];
 function sumOfSquares(numbers) {
   return numbers.reduce((accumulator, number) => {
     return accumulator + number * number;
   });
 }
 console.log(sumOfSquares(numbers));
-// If the zero is removed, there is no initial value.  When this happens with reduce method, it will skip the first index.
+// If the zero is removed, there is no initial value.  When this happens with reduce method, it will skip the first index.*/
+
+// exercise 8
+/*let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
+
+function oddlengths(arr) {
+  return arr.reduce((filterNumberArray, letter) => {
+    let length = letters.length;
+    if (length % 2 === 1) {
+      filterNumberArray.push(length);
+    }
+    return filterNumberArray;
+  }, [])
+}*/
+
+// exercise 9
+/*let numbers1 = [1, 3, 5, 7, 9, 11];
+let numbers2 = [];
+let numbers3 = [2, 4, 6, 8];
+
+numbers1.includes(3);
+numbers2.includes(3);
+numbers3.includes(3);*/
+
+// exercise 10
+let arr = [["test", "hello", "world"], ["example", 6, "mem", null], [4, 8, 12]];
+
+console.log(arr[1][2]);
+
+
+
 
